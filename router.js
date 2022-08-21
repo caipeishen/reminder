@@ -15,6 +15,7 @@ router.get("/", async (ctx) => {
 
     ctx.body = weather;
     if (ACCESS_TOKEN) {
+      console.log("--------ACCESS_TOKEN：", ACCESS_TOKEN);
       let res = await getTemplate(ACCESS_TOKEN, weather);
       console.log("每日提醒返回", res);
     }
@@ -24,13 +25,18 @@ router.get("/", async (ctx) => {
 });
 
 router.get("/important", async (ctx) => {
+  console.log("--------发送请求：important");
+  base.flag = 3;
   const { flag } = base;
+  console.log("flag:", flag);
   if (flag == 0) {
+    console.log("普通日子");
     // 普通日子 直接返回
     return;
   }else{
     try {
       let ACCESS_TOKEN = await getToken();
+      //console.log("--------ACCESS_TOKEN：", ACCESS_TOKEN);
       if (ACCESS_TOKEN) {
         let res = await getImportantTemplate(ACCESS_TOKEN);
         console.log("重要日子返回", res);

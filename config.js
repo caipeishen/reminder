@@ -2,7 +2,7 @@ const config = {
   wechat: {
     appID: "wxd72eb18844393b7c", //公众号里面取
 
-    AppSecret: "", //公众号里面取
+    AppSecret: "2ae921f8f4e1a5e21dc36f547e9b7155", //公众号里面取(会自动刷新，登录网页使用自己的)
 
     base_templateId: "q7BHpAaETET9LVgOZMmgNlCJiLw5L2uG8xSA7thOexI", // 元气提醒模板的id
 
