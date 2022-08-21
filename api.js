@@ -42,7 +42,7 @@ async function getTemplate(ACCESS_TOKEN, weather) {
   const realtime = weather.realtime || {};
   const { flag } = base;
   const template = {
-    touser: "o6tBC6MUgDu0DRJXjEZq_2BYdC8U",
+    touser: "ohroE6bkFpygHNHo_FV0vSVvZB5U",
     template_id: base_templateId,
     topcolor: "#FF0000",
     data: {},
@@ -102,7 +102,7 @@ async function getImportantTemplate(ACCESS_TOKEN, weather) {
   const day = getDay(); // 当前日期
   const { individual, anniversary, flag } = base;
   const template = {
-    touser: "o6tBC6D_8VMCPtAxrU5Ve_Yd43JY",
+    touser: "ohroE6bkFpygHNHo_FV0vSVvZB5U",
     template_id: base_templateId,
     topcolor: "#FF0000",
     data: {},

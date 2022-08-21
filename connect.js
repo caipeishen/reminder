@@ -22,7 +22,7 @@ app.use(async (ctx, next) => {
 	}
 })
 const server = require('http').Server(app.callback())
-server.listen(8080, () => {
+server.listen(80, () => {
 	// /sbin/iptables -I INPUT -p tcp --dport 8080 -j ACCEPT 在服务器运行时需要执行这段命令让服务器开启这个端口
 	console.log('server is running on port 8080!')
 })
