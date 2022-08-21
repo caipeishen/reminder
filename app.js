@@ -9,9 +9,9 @@ new CronJob(
   "10 00 09 * * *",
   function () {
     console.log("You will see this message every second");
-    axios.get("http://1.116.204.114:8080/base");
+    axios.get("http://127.0.0.1:8080/base");
     setTimeout(() => {
-      axios.get("http://1.116.204.114:8080/base/important");
+      axios.get("http://127.0.0.1:8080/base/important");
     }, 8000);
   },
   null,
