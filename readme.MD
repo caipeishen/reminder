@@ -1,3 +1,5 @@
+参考：https://github.com/Jimmylxue/Vitality-reminder
+
 ## 元气提醒
 
 > 利用微信订阅号的方式，给女朋友每天定时定时推送消息。
