@@ -26,7 +26,7 @@ router.get("/", async (ctx) => {
 
 router.get("/important", async (ctx) => {
   console.log("--------发送请求：important");
-  base.flag = 3;
+
   const { flag } = base;
   console.log("flag:", flag);
   if (flag == 0) {
