@@ -1,23 +1,23 @@
 const config = {
   wechat: {
-    appID: "", //公众号里面取
+    appID: "wxd72eb18844393b7c", //公众号里面取
 
     AppSecret: "", //公众号里面取
 
-    base_templateId: "", // 元气提醒模板的id
+    base_templateId: "q7BHpAaETET9LVgOZMmgNlCJiLw5L2uG8xSA7thOexI", // 元气提醒模板的id
 
-    birthday_templateId: "", // 生日模板id
+    birthday_templateId: "ErU5CQ9ugw9SpEaBiUJzjz2stEpBgHj7r3pAA779fvs", // 生日模板id
 
-    pay_templateId: "", // 发薪模板id
+    pay_templateId: "	s4Dv_Ha88avUjv4nyDsMgrFUnIS1cMKdy0HP_YA_CKc", // 发薪模板id
 
-    love_templateId: "", // 相恋模板id
+    love_templateId: "	595ia2x7h63RyJkwI3at3N12q8lxuJxJcufusbPumX0", // 相恋模板id
 
     token: "jimmyxuexue", //自定义的token
   },
 
   polymerization: {
     weather: "", // 第三方天气接口 key
-    city: "福州", // 查询福州的天气
+    city: "安阳", // 查询福州的天气
   },
 };
 
